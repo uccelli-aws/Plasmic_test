@@ -1,0 +1,664 @@
+.root {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  padding: 0px 126px 0px 0px;
+}
+.profiles {
+  background: rgba(225, 243, 255, 1);
+  width: 428px;
+  height: 1006px;
+  display: block;
+  overflow: hidden;
+  flex-shrink: 0;
+  border-radius: 30px;
+}
+.text__ieX9C {
+  display: block;
+  font-size: 34px;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 30px;
+  color: rgba(120, 130, 138, 1);
+  position: absolute;
+  top: 42px;
+  left: -8px;
+  width: 436px;
+}
+.rectangle39509 {
+  background: url("./images/rectangle39509.png") center center / cover no-repeat;
+  width: 177px;
+  height: 187px;
+  display: block;
+  position: absolute;
+  top: 347px;
+  left: 31px;
+  border-radius: 14.471px;
+}
+.rectangle39513 {
+  background: url("./images/rectangle39513.png") 0px -29px / 177px 274px no-repeat;
+  width: 177px;
+  height: 189px;
+  display: block;
+  position: absolute;
+  top: 745px;
+  left: 31px;
+  border-radius: 14.471px;
+}
+.rectangle39512 {
+  background: url("./images/rectangle39507.png") 0px -25px / 176px 265px no-repeat;
+  width: 176px;
+  height: 187px;
+  display: block;
+  position: absolute;
+  top: 546px;
+  left: 31px;
+  border-radius: 14.471px;
+}
+.maskGroup {
+  width: 177px;
+  height: 188px;
+  display: block;
+  position: absolute;
+  top: 147px;
+  left: 31px;
+}
+.n00554A1 {
+  background: url("./images/n00554A1.jpeg") center center / cover no-repeat;
+  transform: translate(0.3760000000000048px, -0.16599999999999682px);
+  width: 163px;
+  height: 190px;
+  display: block;
+  position: absolute;
+  top: -22px;
+  left: 8px;
+}
+.text__o4QT {
+  display: block;
+  font-size: 36px;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(120, 131, 138, 1);
+  position: absolute;
+  top: 147px;
+  left: 233px;
+  width: 125px;
+  height: 90px;
+}
+.text___4Tje5 {
+  display: block;
+  font-size: 36px;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(120, 131, 138, 1);
+  position: absolute;
+  top: 347px;
+  left: 233px;
+  width: 125px;
+  height: 90px;
+}
+.text__esb9C {
+  display: block;
+  font-size: 36px;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(120, 131, 138, 1);
+  position: absolute;
+  top: 546px;
+  left: 233px;
+  width: 125px;
+  height: 90px;
+}
+.text__lWmJk {
+  display: block;
+  font-size: 36px;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(120, 131, 138, 1);
+  position: absolute;
+  top: 745px;
+  left: 233px;
+  width: 125px;
+  height: 90px;
+}
+.svg___4NgY4 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #bdbdbd;
+  width: 77px;
+  height: 68px;
+  top: 437px;
+  left: 268px;
+  overflow: hidden;
+  display: none;
+}
+@media (min-width: 768px) {
+  .svg___4NgY4 {
+    display: block;
+  }
+}
+.svg__pnOq {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #bdbdbd;
+  width: 77px;
+  height: 68px;
+  top: 241px;
+  left: 268px;
+  overflow: hidden;
+  display: none;
+}
+@media (min-width: 768px) {
+  .svg__pnOq {
+    display: block;
+  }
+}
+.svg__mSl7B {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #bdbdbd;
+  width: 77px;
+  height: 68px;
+  top: 636px;
+  left: 268px;
+  overflow: hidden;
+  display: none;
+}
+@media (min-width: 768px) {
+  .svg__mSl7B {
+    display: block;
+  }
+}
+.svg__u5BuF {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #bdbdbd;
+  width: 77px;
+  height: 68px;
+  top: 832px;
+  left: 268px;
+  overflow: hidden;
+  display: none;
+}
+@media (min-width: 768px) {
+  .svg__u5BuF {
+    display: block;
+  }
+}
+.pagination {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 957px;
+  left: 119px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 4px;
+}
+.basePagination02Default01Default {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 0.5px rgba(221, 225, 229, 1);
+  width: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.base {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+}
+.containter {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.containter > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.containter > :global(.__wab_flex-container) > *,
+.containter > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.containter > :global(.__wab_flex-container) > picture > img,
+.containter
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.svg__oDxIp {
+  position: relative;
+  plasmic-display-none: true;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+@media (min-width: 768px) {
+  .svg__oDxIp {
+    display: block;
+  }
+}
+.text__v4E3 {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(0, 122, 255, 1);
+  position: relative;
+}
+.svg__qs9Tg {
+  position: relative;
+  plasmic-display-none: true;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+@media (min-width: 768px) {
+  .svg__qs9Tg {
+    display: block;
+  }
+}
+.basePagination02Default01Default2 {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 0.5px rgba(221, 225, 229, 1);
+  width: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.base2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+}
+.containter2 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.containter2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.containter2 > :global(.__wab_flex-container) > *,
+.containter2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.containter2 > :global(.__wab_flex-container) > picture > img,
+.containter2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.svg__lHk4P {
+  position: relative;
+  plasmic-display-none: true;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+@media (min-width: 768px) {
+  .svg__lHk4P {
+    display: block;
+  }
+}
+.text2 {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(0, 122, 255, 1);
+  position: relative;
+}
+.svg__a595F {
+  position: relative;
+  plasmic-display-none: true;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+@media (min-width: 768px) {
+  .svg__a595F {
+    display: block;
+  }
+}
+.basePagination02Default01Default3 {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 0.5px rgba(221, 225, 229, 1);
+  width: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.base3 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+}
+.containter3 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.containter3 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.containter3 > :global(.__wab_flex-container) > *,
+.containter3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.containter3 > :global(.__wab_flex-container) > picture > img,
+.containter3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.svg__rSjcb {
+  position: relative;
+  plasmic-display-none: true;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+@media (min-width: 768px) {
+  .svg__rSjcb {
+    display: block;
+  }
+}
+.text3 {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(0, 122, 255, 1);
+  position: relative;
+}
+.svg__hAlKq {
+  position: relative;
+  plasmic-display-none: true;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+@media (min-width: 768px) {
+  .svg__hAlKq {
+    display: block;
+  }
+}
+.basePagination02Default01Default4 {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 0.5px rgba(221, 225, 229, 1);
+  width: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.base4 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+}
+.containter4 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.containter4 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.containter4 > :global(.__wab_flex-container) > *,
+.containter4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.containter4 > :global(.__wab_flex-container) > picture > img,
+.containter4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.svg__cflIy {
+  position: relative;
+  plasmic-display-none: true;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+@media (min-width: 768px) {
+  .svg__cflIy {
+    display: block;
+  }
+}
+.text4 {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(0, 122, 255, 1);
+  position: relative;
+}
+.svg__p9SC2 {
+  position: relative;
+  plasmic-display-none: true;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+@media (min-width: 768px) {
+  .svg__p9SC2 {
+    display: block;
+  }
+}
+.basePagination02Default01Default5 {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 0.5px rgba(221, 225, 229, 1);
+  width: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.base5 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+}
+.containter5 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.containter5 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.containter5 > :global(.__wab_flex-container) > *,
+.containter5 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.containter5 > :global(.__wab_flex-container) > picture > img,
+.containter5
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.svg___69Fa {
+  position: relative;
+  plasmic-display-none: true;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+@media (min-width: 768px) {
+  .svg___69Fa {
+    display: block;
+  }
+}
+.text5 {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: rgba(0, 122, 255, 1);
+  position: relative;
+}
+.svg___8Emd1 {
+  position: relative;
+  plasmic-display-none: true;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+@media (min-width: 768px) {
+  .svg___8Emd1 {
+    display: block;
+  }
+}
